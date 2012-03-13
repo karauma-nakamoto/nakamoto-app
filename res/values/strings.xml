@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">北極辛さ抑え目</string>
+    <string name="app_name">蒙古タンメン中本</string>
+    <string name="button_label">味噌タンメン</string>
+    <string-array name="list1">
+        <item >北極</item>
+        <item >冷やし肉醤麺</item>
+        <item >蒙古丼</item>
+    </string-array>
+
+</resources>

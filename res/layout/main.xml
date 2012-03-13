@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF0000"
+    android:orientation="vertical" >
+   <jp.eclipsebook.MyView
+        android:id="@+id/myview1"
+        android:layout_width="wrap_content"
+        android:layout_height="197dp" />
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:textColor="#FFFFFF" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="合計: 0円"
+           android:textColor="#FFFFFF" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF0000"
+    android:orientation="vertical" >>       
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF0000"
+    android:orientation="vertical" >
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF0000"
+    android:orientation="vertical" >
+   <TableRow android:gravity="center" >
+
+       <ToggleButton
+           android:id="@+id/toggleButton1"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="蒙古タンメン"
+           android:textOn="蒙古タンメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton2"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="味噌タンメン"
+           android:textOn="味噌タンメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton3"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="北極ラーメン"
+           android:textOn="北極ラーメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton4"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="五目蒙古タンメン"
+           android:textOn="五目蒙古タンメン"
+           android:textSize="10sp" />
+   </TableRow>
+   
+   <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton5"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="北極やさい"
+           android:textOn="北極やさい"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton6"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="冷やしラーメン"
+           android:textOn="冷やしラーメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton7"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="冷やし五目味噌タンメン"
+           android:textOn="冷やし五目味噌タンメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton8"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="冷やし五目蒙古タンメン"
+           android:textOn="冷やし五目蒙古タンメン"
+           android:textSize="10sp" />
+      </TableRow>
+
+      <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton9"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="冷やし味噌ラーメン"
+           android:textOn="冷やし味噌ラーメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton10"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="半冷やし味噌ラーメン"
+           android:textOn="半冷やし味噌ラーメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton11"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="海老味噌ラーメン"
+           android:textOn="海老味噌ラーメン"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton12"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="麻辣麺"
+           android:textOn="麻辣麺"
+           android:textSize="10sp" />
+      </TableRow>
+            <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton13"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="定食"
+           android:textOn="定食"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton14"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="蒙古丼"
+           android:textOn="蒙古丼"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton15"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="半蒙古丼"
+           android:textOn="半蒙古丼"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton16"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="レディースセット"
+           android:textOn="レディースセット"
+           android:textSize="10sp" />
+      </TableRow>
+            <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton17"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="ゆで玉子"
+           android:textOn="ゆで玉子"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton18"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="北極玉子"
+           android:textOn="北極玉子"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton19"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="ライス"
+           android:textOn="ライス"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton20"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="半ライス"
+           android:textOn="半ライス"
+           android:textSize="10sp" />
+      </TableRow>
+            <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton21"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="麻婆豆腐"
+           android:textOn="麻婆豆腐"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton22"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="定食ライス大盛"
+           android:textOn="定食ライス大盛"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton23"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="定食麻婆豆腐大盛"
+           android:textOn="定食麻婆豆腐大盛"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton24"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="味噌タンメンスープ(ミニ)"
+           android:textOn="味噌タンメンスープ(ミニ)"
+           android:textSize="10sp" />
+      </TableRow>
+                  <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton25"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="半冷し味噌スープ"
+           android:textOn="半冷し味噌スープ"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton26"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="野菜大盛"
+           android:textOn="野菜大盛"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton27"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="バター"
+           android:textOn="バター"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton28"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="ねぎ"
+           android:textOn="ねぎ"
+           android:textSize="10sp" />
+      </TableRow>
+                  <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton29"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="チーズ"
+           android:textOn="チーズ"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton30"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="チャーシュー"
+           android:textOn="チャーシュー"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton31"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="麺大盛"
+           android:textOn="麺大盛"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton32"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="麺特大"
+           android:textOn="麺特大"
+           android:textSize="10sp" />
+      </TableRow>
+                  <TableRow android:gravity="center" >
+          <ToggleButton
+           android:id="@+id/toggleButton33"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="麺超特大"
+           android:textOn="麺超特大"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton34"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="ビール"
+           android:textOn="ビール"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton35"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="ウーロン茶"
+           android:textOn="ウーロン茶"
+           android:textSize="10sp" />
+
+       <ToggleButton
+           android:id="@+id/toggleButton36"
+           android:layout_width="90dp"
+           android:layout_height="50dp"
+           android:textOff="コーラ"
+           android:textOn="コーラ"
+           android:textSize="10sp" />
+      </TableRow>
+      </TableLayout>
+      </LinearLayout>
+      </ScrollView>
+</LinearLayout>
